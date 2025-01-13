@@ -1,2 +1,2 @@
-export { default as ICompressionTracker } from '@/interfaces/ICompressionTracker';
-export { default as IDecompressionTracker } from '@/interfaces/IDecompressionTracker';
+export * from '@/interfaces/ICompressionTracker'
+export * from '@/interfaces/IDecompressionTracker'

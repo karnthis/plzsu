@@ -1,4 +1,4 @@
-export default interface ICompressionTracker {
+export interface ICompressionTracker {
   crossLoopChars: string;
   dataPosition: number;
   builtString: string;

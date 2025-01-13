@@ -1,4 +1,4 @@
-export default interface IDecompressionTracker {
+export interface IDecompressionTracker {
   currCompressedChar: number;
   position: number;
   index: number;
