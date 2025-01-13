@@ -20,7 +20,7 @@ export default defineConfig({
       rollupTypes: true,
       logLevel: 'error'
     }),
-    nodePolyfills({ include: ['buffer', 'crypto'] })
+    nodePolyfills({ include: ['buffer', 'util'] })
   ],
   resolve: {
     preserveSymlinks: true,
